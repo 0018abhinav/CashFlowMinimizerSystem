@@ -2,9 +2,9 @@
 
 To compile and run these files, use the following commands:
 
-g++ -c bank.cpp
-g++ -c main.cpp
-g++ bank.o main.o -o cashflowminimizersystem
+g++ -c bank.cpp &nbsp;&nbsp;
+g++ -c main.cpp &nbsp;&nbsp;
+g++ bank.o main.o -o cashflowminimizersystem &nbsp;&nbsp;
 ./cashflowminimizersystem
 
 This system minimizes the **number of transactions** among multiple banks in the different corners of the world that use **different modes of payment**. There is one world bank (with all payment modes) to act as an intermediary between banks that have no common mode of payment.
