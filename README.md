@@ -1,5 +1,12 @@
 # Welcome to the Cash Flow Minimizer System README !!
 
+To compile and run these files, use the following commands:
+
+g++ -c bank.cpp
+g++ -c main.cpp
+g++ bank.o main.o -o cashflowminimizersystem
+./cashflowminimizersystem
+
 This system minimizes the **number of transactions** among multiple banks in the different corners of the world that use **different modes of payment**. There is one world bank (with all payment modes) to act as an intermediary between banks that have no common mode of payment.
 
 # Getting Started
